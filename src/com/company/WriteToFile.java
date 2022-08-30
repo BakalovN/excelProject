@@ -11,7 +11,7 @@ import java.util.List;
 
 public class WriteToFile {
 
-    public static void loadingCelsFromFile(String[][] values, String[][] formulas, Path path) throws IOException {
+    public static void loadingCellsFromFile(String[][] values, String[][] formulas, Path path) throws IOException {
         if (Files.notExists(path) || Files.readAllLines(path).isEmpty()){
             File file = new File("D:\\saved_cells.txt");
             PrintWriter valuesWriter = new PrintWriter(file);

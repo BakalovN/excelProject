@@ -28,7 +28,7 @@ public class SceneBuilder extends Application {
         String[][] formulas = new String[31][27];
         String[][] values = new String[31][27];
 //----------------------------------------------------------------------------------------------------------------------
-        WriteToFile.loadingCelsFromFile(values,formulas,path);//setting the arrays with saved data from txt file
+        WriteToFile.loadingCellsFromFile(values,formulas,path);//setting the arrays with saved data from txt file
 
         VBox vBox = new VBox();//               --------------------VERTICAL BOX--------------------
         vBox.setMaxWidth(1000);//               --HORIZONTAL BOX WITH TEXT FIELDS                 --
